@@ -276,7 +276,7 @@ def test():
         Test.query.all()
         return 'My database is Connected'
     except:
-        return 'My db is not Connected'
+        return 'My db is not Connected, please check it'
     
 
 @app.route('/details')
